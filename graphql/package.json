@@ -4,7 +4,8 @@
   "description": "This directory contains a Node.js GraphQL API application that uses the Neo4j GraphQL Library and Apollo Server and data from the Meetup API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
