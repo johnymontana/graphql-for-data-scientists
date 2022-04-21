@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const { NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD } = process.env;
 
-typeDefs = gql`
+const typeDefs = gql`
   type Group @exclude(operations: [CREATE, UPDATE, DELETE]) {
     name: String
     urlname: String
