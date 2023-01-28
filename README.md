@@ -61,7 +61,7 @@ See [this readme](https://github.com/johnymontana/fullstack-graphql-book/blob/ma
   * Working with GraphQL in a DataFrame
   * Graph Data Science with Neo4j
 
-[notebooks/meetup.ipynb](notebooks/meetup.ipynb)
+See [notebooks/meetup.ipynb](notebooks/meetup.ipynb) or run in [Google Colab](https://colab.research.google.com/github/johnymontana/graphql-for-data-scientists/blob/main/notebooks/meetup.ipynb)
 
 ## Part 3: Exposing Data Science With GraphQL
 
