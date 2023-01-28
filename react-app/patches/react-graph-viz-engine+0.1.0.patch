@@ -1,0 +1,28 @@
+diff --git a/node_modules/react-graph-viz-engine/es/util/fetch.js b/node_modules/react-graph-viz-engine/es/util/fetch.js
+index f30204a..f39d582 100644
+--- a/node_modules/react-graph-viz-engine/es/util/fetch.js
++++ b/node_modules/react-graph-viz-engine/es/util/fetch.js
+@@ -14,6 +14,9 @@ function _fetchGraphQLDataJSON() {
+             _context.next = 2;
+             return fetch(url, {
+               method: 'POST',
++              headers: {
++                'Content-Type': 'application/json;charset=utf-8'
++              },
+               body: JSON.stringify({
+                 query: query
+               })
+diff --git a/node_modules/react-graph-viz-engine/lib/util/fetch.js b/node_modules/react-graph-viz-engine/lib/util/fetch.js
+index c9fdc26..85e8967 100644
+--- a/node_modules/react-graph-viz-engine/lib/util/fetch.js
++++ b/node_modules/react-graph-viz-engine/lib/util/fetch.js
+@@ -25,6 +25,9 @@ function _fetchGraphQLDataJSON() {
+             _context.next = 2;
+             return fetch(url, {
+               method: 'POST',
++              headers: {
++                'Content-Type': 'application/json;charset=utf-8'
++              },
+               body: JSON.stringify({
+                 query: query
+               })

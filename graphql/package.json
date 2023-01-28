@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@neo4j/graphql": "^3.1.0",
+    "@neo4j/graphql":"^3.15.0",
     "apollo-server": "^3.6.7",
     "dotenv": "^16.0.0",
-    "graphql": "^16.3.0",
-    "neo4j-driver": "^4.4.5"
+    "graphql": "^16.6.0",
+    "neo4j-driver": "^5.5.0"
   }
 }

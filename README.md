@@ -1,4 +1,4 @@
-# GraphQL For Data Scientists
+# Introduction To GraphQL For Data Scientists
 
 ![](img/graphql.png)
 
@@ -46,6 +46,8 @@ What are the genres of "Jurassic Park"?
 }
 ```
 
+Can you write GraphQL queries to answer the following questions?
+
 * What other movies are in those genres?
 * What movie has the highest `imdbRating`?
 
@@ -56,10 +58,10 @@ See [this readme](https://github.com/johnymontana/fullstack-graphql-book/blob/ma
 ![](img/jupyter1.png)
 
   * Querying GraphQL in Python using the GQL package - Meetup API
-  * Working with GraphQL in DataFrames
+  * Working with GraphQL in a DataFrame
   * Graph Data Science with Neo4j
 
-Open in [Google Colab](https://colab.research.google.com/github/johnymontana/graphql-for-data-scientists/blob/main/notebooks/meetup.ipynb)
+[notebooks/meetup.ipynb](notebooks/meetup.ipynb)
 
 ## Part 3: Exposing Data Science With GraphQL
 
@@ -67,7 +69,7 @@ Open in [Google Colab](https://colab.research.google.com/github/johnymontana/gra
 
   * Using the Neo4j GraphQL Library to expose the results of data science workflows (operationalize data science activities)
 
-[Open in CodeSandbox](https://codesandbox.io/s/github/johnymontana/graphql-for-data-scientists/tree/main/graphql)
+See [graphql/](graphql/) or [Open in CodeSandbox](https://codesandbox.io/s/github/johnymontana/graphql-for-data-scientists/tree/main/graphql)
 
 ## Part 4: GraphQL Data Visualization
 
